@@ -1,6 +1,6 @@
 ## Wobble
 
-This is our high-quality wobbles API. You can use this API to request
+This is our high-quality Joke API. You can use this API to request
 and remove different wobbles at a low wibble price.
 
 ### List wobbles
