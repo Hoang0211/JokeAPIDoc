@@ -15,7 +15,7 @@ GET /jokes
 #### Example request
 
 ```curl
-$ curl http://localhost:3000/jokes
+$ curl https://joke-api-hoang-jevgeni.herokuapp.com/jokes
 ```
 
 #### Example response
@@ -55,7 +55,7 @@ GET /jokes/random
 #### Example request
 
 ```curl
-$ curl http://localhost:3000/jokes/random
+$ curl https://joke-api-hoang-jevgeni.herokuapp.com/jokes/random
 ```
 
 #### Example response
@@ -84,7 +84,7 @@ GET /categories/{category_name}/random
 #### Example request
 
 ```curl
-$ curl http://localhost:3000/categories/Train/random
+$ curl https://joke-api-hoang-jevgeni.herokuapp.com/categories/Train/random
 ```
 
 #### Example response
@@ -113,7 +113,7 @@ GET /categories
 #### Example request
 
 ```curl
-$ curl http://localhost:3000/categories
+$ curl https://joke-api-hoang-jevgeni.herokuapp.com/categories
 ```
 
 #### Example response
@@ -150,7 +150,7 @@ GET /categories/{category_name}
 #### Example request
 
 ```curl
-$ curl http://localhost:3000/categories/Plane
+$ curl https://joke-api-hoang-jevgeni.herokuapp.com/categories/Plane
 ```
 
 #### Example response
@@ -181,7 +181,7 @@ GET /jokes/{joke_id}
 #### Example request
 
 ```curl
-$ curl http://localhost:3000/jokes/{joke_id}
+$ curl https://joke-api-hoang-jevgeni.herokuapp.com/jokes/{joke_id}
 ```
 
 #### Example response
@@ -209,7 +209,7 @@ POST /categories
 #### Example request
 
 ```curl
-curl -X POST http://localhost:3000/categories
+curl -X POST https://joke-api-hoang-jevgeni.herokuapp.com/categories
 ```
 
 #### Example request body
@@ -245,7 +245,7 @@ POST /categories/{category_name}
 #### Example request
 
 ```curl
-curl -X POST http://localhost:3000/categories/Ship
+curl -X POST https://joke-api-hoang-jevgeni.herokuapp.com/categories/Ship
 ```
 
 #### Example request body
@@ -291,7 +291,7 @@ PATCH /categories/{category_name}/{joke_id}
 #### Example request
 
 ```curl
-curl --request PATCH http://localhost:3000/categories/Bike/{joke_id} \
+curl --request PATCH https://joke-api-hoang-jevgeni.herokuapp.com/categories/Bike/{joke_id} \
   -d @data.json
 ```
 
@@ -323,7 +323,7 @@ PATCH /jokes/{joke_id}/favor/{favor_name}
 #### Example request
 
 ```curl
-curl --request PATCH http://localhost:3000/jokes/{joke_id}/favor/like \
+curl --request PATCH https://joke-api-hoang-jevgeni.herokuapp.com/jokes/{joke_id}/favor/like \
   -d @data.json
 ```
 
